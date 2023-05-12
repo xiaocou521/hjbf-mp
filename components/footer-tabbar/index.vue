@@ -1,4 +1,4 @@
-<template name="BottomTabbar">
+<template name="FooterTabbar">
 	<view>
 		<u-tabbar :model="tabbarListStore.current" :list="tabbarListStore.list" :active-color="$themeColor" height="100"
 			inactive-color="#aaaaaa" @change="change">
